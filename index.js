@@ -1,6 +1,6 @@
 // Fetch data from db.json and display it
 function fetchWines() {
-  fetch("http://localhost:3000/wines") // Replace with your JSON server URL
+  fetch("https://phase-1-javascript-project-mode-1-pwys.onrender.com/wines") // Replace with your JSON server URL
     .then((response) => {
       if (!response.ok) {
         throw new Error("Network response was not ok");
@@ -75,7 +75,7 @@ document.getElementById("wine-form").addEventListener("submit", (event) => {
     food_pairings: event.target["food-pairings"].value.split(","),
   };
 
-  fetch("http://localhost:3000/wines", {
+  fetch("https://phase-1-javascript-project-mode-1-pwys.onrender.com/wines", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
