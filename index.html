@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sap & Savor Wines</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>WINE REVIEW</h1>
+  
+
+  <div id="wine-collection">
+    <h2>Wine list</h2>
+    <div id="wine-list">
+      <!-- Dynamically populated wine collection will appear here -->
+    </div>
+  </div>
+
+  <!-- Details Section -->
+  <div id="wine-details">
+    <h3>Wine Details</h3>
+    <!-- Dynamically populated wine details will appear here -->
+  </div>
+
+  <!-- Form to Add a New Wine -->
+  <form id="wine-form">
+    <h4>Add a New Wine</h4>
+    <label for="region">Region:</label><br>
+    <input type="text" id="region" name="region" placeholder="Enter Region" required><br>
+    <label for="varietal">Varietal:</label><br>
+    <input type="text" id="varietal" name="varietal" placeholder="Enter Varietal" required><br>
+    <label for="year">Year:</label><br>
+    <input type="number" id="year" name="year" placeholder="Enter Year" required><br>
+    <label for="abv">ABV (%):</label><br>
+    <input type="number" id="abv" name="abv" step="0.1" placeholder="Enter Abv" required><br>
+    <label for="image">Image URL:</label><br>
+    <input type="url" id="image" name="image" placeholder="Enter Image Url" required><br>
+
+    <fieldset>
+      <legend>Tasting Notes</legend>
+      <label for="appearance">Appearance:</label><br>
+      <input type="text" id="appearance" name="appearance" placeholder="Enter Appearance" required><br>
+      <label for="nose">Nose:</label><br>
+      <input type="text" id="nose" name="nose" placeholder="Nose" required><br>
+      <label for="taste">Taste:</label><br>
+      <input type="text" id="taste" name="taste" placeholder="Enter taste" required><br>
+      <label for="finish">Finish:</label><br>
+      <input type="text" id="finish" name="finish" placeholder="Finish" required><br>
+    </fieldset>
+
+    <label for="food-pairings">Food Pairings (comma-separated):</label><br>
+    <input type="text" id="food-pairings" name="food_pairings" placeholder="Enter food-pairings" required><br>
+    <label for="rating">Rating:</label><br>
+    <input type="number" id="rating" name="rating" step="0.1" placeholder="Rate" required><br>
+
+    <button type="submit">Add Wine</button>
+  </form>
+
+  <script src="index.js"></script>
+</body>
+</html>

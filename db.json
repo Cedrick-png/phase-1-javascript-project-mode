@@ -1,0 +1,104 @@
+{
+  "wines": [
+    {
+      "id": "1",
+      "name": "2018 Napa Valley Cabernet Sauvignon",
+      "region": "Napa Valley, California",
+      "varietal": "Cabernet Sauvignon",
+      "year": 2018,
+      "abv": 14.5,
+      "image": "https://cdn.pixabay.com/photo/2023/11/25/01/38/ai-generated-8410906_1280.png",
+      "tasting_notes": {
+        "appearance": "Deep ruby red with a hint of purple.",
+        "nose": "Dark fruits (blackcurrant, blackberry), hints of vanilla and tobacco, light pepper spice.",
+        "taste": "Full-bodied, with bold tannins and a rich fruit profile, integrated oak influence, velvety mouthfeel.",
+        "finish": "Long, with dark chocolate and a touch of earthy minerality."
+      },
+      "food_pairings": [
+        "Grilled steak",
+        "Roasted lamb",
+        "Aged cheddar"
+      ],
+      "rating": 9.5
+    },
+    {
+      "id": "2",
+      "name": "2020 Oregon Pinot Noir",
+      "region": "Oregon, USA",
+      "varietal": "Pinot Noir",
+      "year": 2020,
+      "abv": 13,
+      "image": "https://cdn.pixabay.com/photo/2024/05/06/19/20/red-wine-8744058_640.png",
+      "tasting_notes": {
+        "appearance": "Light ruby, translucent, almost ethereal in color.",
+        "nose": "Bright red fruit (strawberry, raspberry), earthy notes of forest floor and a touch of floral violet.",
+        "taste": "Lighter-bodied, with smooth tannins and crisp acidity. Red fruit flavors dominate, with a subtle earthy undertone.",
+        "finish": "Soft, with lingering red berry flavors and an elegant, clean finish."
+      },
+      "food_pairings": [
+        "Roasted chicken",
+        "Mushroom risotto",
+        "Brie cheese"
+      ],
+      "rating": 7.9
+    },
+    {
+      "id": "3",
+      "name": "2019 Bordeaux Blend",
+      "region": "Bordeaux, France",
+      "varietal": "Merlot, Cabernet Sauvignon, Cabernet Franc",
+      "year": 2019,
+      "abv": 13.5,
+      "image": "https://cdn.pixabay.com/photo/2024/05/20/21/18/ai-generated-8776324_960_720.jpg",
+      "tasting_notes": {
+        "appearance": "Deep ruby with garnet edges.",
+        "nose": "Blackberry, plum, tobacco, and hints of earthy oak.",
+        "taste": "Medium to full-bodied, with smooth tannins and a rich profile of dark fruits and subtle spices.",
+        "finish": "A long, smooth finish with earthy nuances and a touch of spice."
+      },
+      "food_pairings": [
+        "Beef tenderloin",
+        "Grilled lamb",
+        "Goat cheese"
+      ],
+      "rating": 9.2
+    },
+    {
+      "id": "4",
+      "name": "2021 Sauvignon Blanc",
+      "region": "Marlborough, New Zealand",
+      "varietal": "Sauvignon Blanc",
+      "year": 2021,
+      "abv": 12.5,
+      "image": "https://cdn.pixabay.com/photo/2024/05/14/21/53/pizza-8762205_960_720.jpg",
+      "tasting_notes": {
+        "appearance": "Pale straw with green hues.",
+        "nose": "Citrus (lemon, lime), passion fruit, and a hint of freshly cut grass.",
+        "taste": "Crisp, zesty, with a burst of citrus and tropical fruit flavors, balanced by lively acidity.",
+        "finish": "Short, clean, and refreshing."
+      },
+      "food_pairings": [
+        "Grilled shrimp",
+        "Goat cheese salad",
+        "Oysters"
+      ],
+      "rating": 8.7
+    },
+    {
+      "id": "6094",
+      "varietal": "grape",
+      "year": 2012,
+      "abv": -0.2,
+      "image": "https://media.istockphoto.com/id/991732782/photo/close-up-of-sommelier-serving-red-wine-at-fine-dining-restaurant.jpg?s=2048x2048&w=is&k=20&c=xii8e4HeDJP6lN2uKjEIxwBWomv6ZsoO6VNWm1NT_R4=",
+      "tasting_notes": {
+        "appearance": "hhhjii",
+        "nose": "dswsdxx",
+        "taste": "utftgygh",
+        "finish": "trsrdf"
+      },
+      "food_pairings": [
+        "ytresadfg"
+      ]
+    }
+  ]
+}
